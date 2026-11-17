@@ -1,0 +1,170 @@
+{
+  "title": "Gestione corsi di formazione interna",
+  "description": "Catalogo navigabile per consultare i corsi, controllare date e disponibilità dei posti e registrare nuove proposte formative.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo e dei posti disponibili nei prossimi corsi.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "18"
+        },
+        {
+          "label": "In programma",
+          "value": "7"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "64"
+        },
+        {
+          "label": "Proposte da valutare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "Officina Nubi",
+          "12/05/2026",
+          "12/05/2026",
+          "8"
+        ],
+        [
+          "Strumenti per i progetti",
+          "Vela Sori",
+          "Atelier Brina",
+          "18/05/2026",
+          "19/05/2026",
+          "12"
+        ],
+        [
+          "Archivi digitali",
+          "Nubi Teren",
+          "Studio Lumea",
+          "25/05/2026",
+          "26/05/2026",
+          "6"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Rina Velo",
+          "Casa Mirta",
+          "03/06/2026",
+          "03/06/2026",
+          "10"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per docente, organizzazione e disponibilità. La ricerca e i filtri sono controlli di consultazione, separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Risultati nel catalogo",
+          "value": "18"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "64"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "Officina Nubi",
+          "12/05/2026",
+          "12/05/2026",
+          "8"
+        ],
+        [
+          "Strumenti per i progetti",
+          "Vela Sori",
+          "Atelier Brina",
+          "18/05/2026",
+          "19/05/2026",
+          "12"
+        ],
+        [
+          "Archivi digitali",
+          "Nubi Teren",
+          "Studio Lumea",
+          "25/05/2026",
+          "26/05/2026",
+          "6"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Rina Velo",
+          "Casa Mirta",
+          "03/06/2026",
+          "03/06/2026",
+          "10"
+        ],
+        [
+          "Pianificazione pratica",
+          "Mira Lento",
+          "Officina Nubi",
+          "08/06/2026",
+          "09/06/2026",
+          "7"
+        ],
+        [
+          "Facilitare riunioni",
+          "Timo Varda",
+          "Atelier Brina",
+          "15/06/2026",
+          "15/06/2026",
+          "9"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Nuovo corso",
+      "description": "Inserisci una proposta formativa con docente, organizzazione, date e posti disponibili.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ]
+    }
+  ]
+}
